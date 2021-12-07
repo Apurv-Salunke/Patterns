@@ -1,6 +1,7 @@
 [
   {
-    "config_id": "strategy_crossover_plus_momentum_value_opposite|1",
+    "config_id": "Any unique string 1",
+    "strategy":"strategy_crossover_plus_momentum_value_opposite",
     "symbol":["HDFC BANK"],
     "timeframe": "15min",
     "conditons": [
@@ -14,7 +15,8 @@
     "exit2": false
   },
   {
-    "config_id": "strategy_crossover_plus_momentum_value_opposite|2",
+    "config_id": "Any unique string 2",
+    "strategy":"strategy_crossover_plus_momentum_value_opposite"
     "symbol":["HDFC BANK"],
     "timeframe": "15min",
     "conditons": [
@@ -28,7 +30,8 @@
     "exit2": true
   },
   {
-    "config_id": "strategy_momentum_plus_volume|1",
+    "config_id": "SW1",
+    "strategy":"strategy_momentum_plus_volume"
     "symbol":["HDFC BANK"],
     "timeframe": "15min",
     "conditons": [
