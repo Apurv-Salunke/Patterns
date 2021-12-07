@@ -31,12 +31,12 @@
   },
   {
     "config_id": "SW1",
-    "strategy":"strategy_momentum_plus_volume",
+    "strategy":"strategy_momentum_plus_crossover",
     "symbol":["HDFC BANK"],
     "timeframe": "15min",
     "conditions": [
-      { "name": "rsi", "params": { "n": 14 } },
-      { "name": "Volume_Conditionossc", "params": {} }
+      { "name": "OBV_Condition", "params": { "n": 14 } },
+      { "name": "rsi", "params": { "n": 14} }
     ],
 
     "atr": { "n": 14 },
