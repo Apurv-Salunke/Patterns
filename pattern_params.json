@@ -36,7 +36,7 @@
     "timeframe": "15min",
     "conditions": [
       { "name": "rsi", "params": { "n": 14 } },
-      { "name": "Volume_Condition", "params": {} }
+      { "name": "Volume_Conditionossc", "params": {} }
     ],
 
     "atr": { "n": 14 },
