@@ -1,6 +1,8 @@
 [
   {
     "config_id": "strategy_crossover_plus_momentum_value_opposite|1",
+    "symbol":["HDFC BANK"],
+    "timeframe": "15min",
     "conditons": [
       { "conditon": "RSI_Condition_opposite", "params": { "n": 14 } },
       { "conditon": "OBV_Condition", "params": { "n": 20 } }
@@ -13,6 +15,8 @@
   },
   {
     "config_id": "strategy_crossover_plus_momentum_value_opposite|2",
+    "symbol":["HDFC BANK"],
+    "timeframe": "15min",
     "conditons": [
       { "conditon": "RSI_Condition_opposite", "params": { "n": 78 } },
       { "conditon": "OBV_Condition", "params": { "n": 100 } }
@@ -25,6 +29,8 @@
   },
   {
     "config_id": "strategy_momentum_plus_volume|1",
+    "symbol":["HDFC BANK"],
+    "timeframe": "15min",
     "conditons": [
       { "conditon": "rsi", "params": { "n": 14 } },
       { "conditon": "Volume_Condition", "params": {} }
