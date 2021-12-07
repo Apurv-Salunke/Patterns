@@ -1,6 +1,6 @@
 [
   {
-    "run_id": "strategy_crossover_plus_momentum_value_opposite|1",
+    "config_id": "strategy_crossover_plus_momentum_value_opposite|1",
     "conditons": [
       { "conditon": "RSI_Condition_opposite", "params": { "n": 14 } },
       { "conditon": "OBV_Condition", "params": { "n": 20 } }
@@ -12,7 +12,7 @@
     "exit2": false
   },
   {
-    "run_id": "strategy_crossover_plus_momentum_value_opposite|2",
+    "config_id": "strategy_crossover_plus_momentum_value_opposite|2",
     "conditons": [
       { "conditon": "RSI_Condition_opposite", "params": { "n": 78 } },
       { "conditon": "OBV_Condition", "params": { "n": 100 } }
@@ -24,7 +24,7 @@
     "exit2": true
   },
   {
-    "run_id": "strategy_momentum_plus_volume|1",
+    "config_id": "strategy_momentum_plus_volume|1",
     "conditons": [
       { "conditon": "rsi", "params": { "n": 14 } },
       { "conditon": "Volume_Condition", "params": {} }
