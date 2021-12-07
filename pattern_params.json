@@ -1,4 +1,38 @@
 [
-  { "run_id": 1, "rsi": { "n": 14 }, "ema": { "n": 20 } },
-  { "run_id": 2, "rsi": { "n": 20 }, "ema": { "n": 21 } }
+  {
+    "run_id": "strategy_crossover_plus_momentum_value_opposite|1",
+    "conditons": [
+      { "conditon": "RSI_Condition_opposite", "params": { "n": 14 } },
+      { "conditon": "OBV_Condition", "params": { "n": 20 } }
+    ],
+
+    "atr": { "n": 14 },
+
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "run_id": "strategy_crossover_plus_momentum_value_opposite|2",
+    "conditons": [
+      { "conditon": "RSI_Condition_opposite", "params": { "n": 78 } },
+      { "conditon": "OBV_Condition", "params": { "n": 100 } }
+    ],
+
+    "atr": { "n": 140 },
+
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "run_id": "strategy_momentum_plus_volume|1",
+    "conditons": [
+      { "conditon": "rsi", "params": { "n": 14 } },
+      { "conditon": "Volume_Condition", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "exit1": true,
+    "exit2": false
+  }
 ]
