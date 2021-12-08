@@ -5,7 +5,7 @@
     "symbols":["HDFC BANK"],
     "timeframe": "15min",
     "conditions": [
-      { "name": "MFI_condition_opposite", "params": { "n": 14 } },
+      { "name": "MFI_condition_opposite", "params": { "period": 14 } },
       { "name": "OBV_Condition", "params": { "n": 20 } }
     ],
 
