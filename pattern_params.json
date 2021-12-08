@@ -2,7 +2,7 @@
   {
     "config_id": "1",
     "strategy":"strategy_crossover_plus_momentum_value_opposite",
-    "symbols":["HDFC BANK"],
+    "symbol":"HDFC BANK",
     "timeframe": "15min",
     "conditions": [
       { "name": "RSI_Condition_opposite", "params": { "n": 14 } },
@@ -17,7 +17,7 @@
   {
     "config_id": "2",
     "strategy":"strategy_crossover_plus_momentum_value_opposite",
-    "symbols":["HDFC BANK"],
+    "symbol":"HDFC BANK",
     "timeframe": "15min",
     "conditions": [
       { "name": "RSI_Condition_opposite", "params": { "n": 78 } },
@@ -32,7 +32,7 @@
   {
     "config_id": "3",
     "strategy":"strategy_momentum_plus_crossover",
-    "symbols":["HDFC BANK"],
+    "symbol":"HDFC BANK",
     "timeframe": "15min",
     "conditions": [
       { "name": "OBV_Condition", "params": { "n": 14 } },
