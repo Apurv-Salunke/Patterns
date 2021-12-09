@@ -11,8 +11,6 @@
     ],
 
     "atr": { "n": 14 },
-    "bullish": true,
-    "bearish": false,
     
     "bullish": true,
     "bearish": false,
@@ -51,6 +49,7 @@
     ],
 
     "atr": { "n": 14 },
+    
     "bullish": true,
     "bearish": false,
 
