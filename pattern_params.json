@@ -14,6 +14,7 @@
     
     "bullish": true,
     "bearish": false,
+    "divergence": true,
 
     "exit1": true,
     "exit2": false
@@ -33,6 +34,7 @@
     
     "bullish": true,
     "bearish": false,
+    "divergence": true,
 
     "exit1": false,
     "exit2": true
@@ -52,6 +54,7 @@
     
     "bullish": true,
     "bearish": false,
+    "divergence": true,
 
     "exit1": true,
     "exit2": false
