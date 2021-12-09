@@ -11,6 +11,11 @@
     ],
 
     "atr": { "n": 14 },
+    "bullish": true,
+    "bearish": false,
+    
+    "bullish": true,
+    "bearish": false,
 
     "exit1": true,
     "exit2": false
@@ -27,22 +32,27 @@
     ],
 
     "atr": { "n": 140 },
+    
+    "bullish": true,
+    "bearish": false,
 
     "exit1": false,
     "exit2": true
   },
   {
     "config_id": "3",
-    "strategy":"strategy_momentum_plus_crossover",
+    "strategy":"stratergy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
     "bar_count":-1,
     "conditions": [
-      { "name": "OBV_Condition", "params": { "n": 14 } },
-      { "name": "rsi", "params": { "n": 14} }
+      { "name": "OBV_Condition", "params": { "n": 14 } }
+     
     ],
 
     "atr": { "n": 14 },
+    "bullish": true,
+    "bearish": false,
 
     "exit1": true,
     "exit2": false
